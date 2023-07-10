@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(100, 114, 141);
+}
+
+header{
+    font-family: Cambria;
+    background-color: rgb(19, 23, 78);
+    padding: 50px;
+    
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+
+main{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    background-color: rgba(99, 179, 253, 0.973);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+li span{
+    float: right;
+}
+
+.item:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+#last-item{
+    background-color: white
+}
